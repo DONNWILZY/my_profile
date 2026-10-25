@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="330" viewBox="0 0 1280 330" role="img" aria-labelledby="title desc">
+  <title id="title">Effiong Godswill — building technology that moves ideas forward</title>
+  <desc id="desc">Purple gradient GitHub profile banner with Effiong Godswill's name and expertise.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#20003e"/>
+      <stop offset=".57" stop-color="#350460"/>
+      <stop offset="1" stop-color="#5c1684"/>
+    </linearGradient>
+    <linearGradient id="orb" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#b37aff" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#b37aff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#c9a6ef" stroke-opacity=".1" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="330" rx="26" fill="url(#bg)"/>
+  <rect width="1280" height="330" rx="26" fill="url(#grid)"/>
+  <circle cx="1100" cy="100" r="245" fill="url(#orb)"/>
+  <circle cx="1090" cy="160" r="153" fill="none" stroke="#c9a6ef" stroke-opacity=".25" stroke-width="1.5"/>
+  <circle cx="1090" cy="160" r="113" fill="none" stroke="#c9a6ef" stroke-opacity=".2" stroke-width="1.5"/>
+  <circle cx="1090" cy="160" r="73" fill="none" stroke="#c9a6ef" stroke-opacity=".16" stroke-width="1.5"/>
+  <path d="M990 155l-20 19 20 19M1186 155l20 19-20 19M1120 140l-55 72" fill="none" stroke="#e1c9ff" stroke-opacity=".73" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="64" y="54" width="176" height="32" rx="16" fill="#eee0ff" fill-opacity=".13" stroke="#d5b1ff" stroke-opacity=".33"/>
+  <text x="86" y="75" fill="#f4e9ff" font-size="14" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="2">CODE × STRATEGY</text>
+  <text x="64" y="156" fill="#ffffff" font-size="59" font-family="Arial, Helvetica, sans-serif" font-weight="700">Effiong Godswill</text>
+  <text x="66" y="203" fill="#e9d9fb" font-size="25" font-family="Arial, Helvetica, sans-serif">Backend Developer  •  Product Builder  •  Growth Strategist</text>
+  <rect x="66" y="246" width="54" height="4" rx="2" fill="#d1a0ff"/>
+  <text x="134" y="256" fill="#f1e6ff" font-size="19" font-family="Arial, Helvetica, sans-serif">Building useful products. Creating meaningful impact.</text>
+</svg>
