@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="260" viewBox="0 0 1280 260" role="img" aria-label="Engineering, Products, Growth and Collaboration">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A1F44"/>
+      <stop offset="1" stop-color="#1235A8"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#93C5FD"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .sans { font-family: 'Segoe UI', Arial, Helvetica, sans-serif; }
+    .title { fill: #FFFFFF; font-size: 22px; font-weight: 700; }
+    .body { fill: #BFDBFE; font-size: 15px; }
+    .num { fill: #FFFFFF; fill-opacity: .08; font-size: 40px; font-weight: 800; }
+    .ico { fill: none; stroke: #DBEAFE; stroke-width: 3.5; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+
+  <!-- 01 Engineering -->
+  <g transform="translate(20,20)">
+    <rect width="292" height="220" rx="22" fill="url(#card)" stroke="#3B82F6" stroke-opacity=".4"/>
+    <text class="sans num" x="268" y="50" text-anchor="end">01</text>
+    <circle cx="52" cy="58" r="28" fill="#1D4ED8" fill-opacity=".4" stroke="#60A5FA" stroke-opacity=".6"/>
+    <path class="ico" d="M44 50l-10 8 10 8M60 50l10 8-10 8M55 46l-6 24"/>
+    <text class="sans title" x="24" y="124">Engineering</text>
+    <rect x="24" y="136" width="36" height="3" rx="1.5" fill="url(#accent)"/>
+    <text class="sans body" x="24" y="168">APIs, authentication, payments,</text>
+    <text class="sans body" x="24" y="190">data modeling &amp; DB reliability</text>
+  </g>
+
+  <!-- 02 Products -->
+  <g transform="translate(336,20)">
+    <rect width="292" height="220" rx="22" fill="url(#card)" stroke="#3B82F6" stroke-opacity=".4"/>
+    <text class="sans num" x="268" y="50" text-anchor="end">02</text>
+    <circle cx="52" cy="58" r="28" fill="#1D4ED8" fill-opacity=".4" stroke="#60A5FA" stroke-opacity=".6"/>
+    <path class="ico" d="M52 40l18 8-18 8-18-8z" fill="#DBEAFE" fill-opacity=".3"/>
+    <path class="ico" d="M34 57l18 8 18-8M34 66l18 8 18-8"/>
+    <text class="sans title" x="24" y="124">Products</text>
+    <rect x="24" y="136" width="36" height="3" rx="1.5" fill="url(#accent)"/>
+    <text class="sans body" x="24" y="168">Web platforms, content tools,</text>
+    <text class="sans body" x="24" y="190">booking flows &amp; fintech apps</text>
+  </g>
+
+  <!-- 03 Growth -->
+  <g transform="translate(652,20)">
+    <rect width="292" height="220" rx="22" fill="url(#card)" stroke="#3B82F6" stroke-opacity=".4"/>
+    <text class="sans num" x="268" y="50" text-anchor="end">03</text>
+    <circle cx="52" cy="58" r="28" fill="#1D4ED8" fill-opacity=".4" stroke="#60A5FA" stroke-opacity=".6"/>
+    <path class="ico" d="M35 70l12-12 9 6 15-20M60 44h10v10"/>
+    <text class="sans title" x="24" y="124">Growth</text>
+    <rect x="24" y="136" width="36" height="3" rx="1.5" fill="url(#accent)"/>
+    <text class="sans body" x="24" y="168">Digital marketing, SEO, user</text>
+    <text class="sans body" x="24" y="190">acquisition &amp; visibility</text>
+  </g>
+
+  <!-- 04 Collaboration -->
+  <g transform="translate(968,20)">
+    <rect width="292" height="220" rx="22" fill="url(#card)" stroke="#3B82F6" stroke-opacity=".4"/>
+    <text class="sans num" x="268" y="50" text-anchor="end">04</text>
+    <circle cx="52" cy="58" r="28" fill="#1D4ED8" fill-opacity=".4" stroke="#60A5FA" stroke-opacity=".6"/>
+    <circle class="ico" cx="45" cy="58" r="13"/>
+    <circle class="ico" cx="60" cy="58" r="13"/>
+    <text class="sans title" x="24" y="124">Collaboration</text>
+    <rect x="24" y="136" width="36" height="3" rx="1.5" fill="url(#accent)"/>
+    <text class="sans body" x="24" y="168">Open to impactful software</text>
+    <text class="sans body" x="24" y="190">and product collaborations</text>
+  </g>
+</svg>

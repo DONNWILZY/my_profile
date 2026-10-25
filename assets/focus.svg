@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-label="Build secure APIs to make systems reliable. Ship useful products to solve practical problems. Understand the user to connect technology to growth. Keep improving to learn, test and refine.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06142F"/>
+      <stop offset=".6" stop-color="#0F2F7A"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#93C5FD"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#BFDBFE" stroke-opacity=".07"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .sans { font-family: 'Segoe UI', Arial, Helvetica, sans-serif; }
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .left { fill: #FFFFFF; font-size: 22px; font-weight: 700; }
+    .right { fill: #EFF6FF; font-size: 22px; font-weight: 600; }
+    .flow { stroke-dasharray: 8 8; animation: dash 1.2s linear infinite; }
+    @keyframes dash { to { stroke-dashoffset: -16; } }
+  </style>
+
+  <rect width="1280" height="340" rx="26" fill="url(#bg)"/>
+  <rect width="1280" height="340" rx="26" fill="url(#grid)"/>
+
+  <!-- window bar -->
+  <circle cx="44" cy="36" r="6" fill="#F87171"/>
+  <circle cx="64" cy="36" r="6" fill="#FBBF24"/>
+  <circle cx="84" cy="36" r="6" fill="#4ADE80"/>
+  <text class="mono" x="640" y="41" text-anchor="middle" fill="#93C5FD" font-size="14" letter-spacing="1">focus.txt</text>
+
+  <!-- row 1 -->
+  <g transform="translate(0,72)">
+    <rect x="80" width="470" height="54" rx="27" fill="#DBEAFE" fill-opacity=".1" stroke="#93C5FD" stroke-opacity=".45"/>
+    <text class="sans left" x="115" y="34">Build secure APIs</text>
+    <line class="flow" x1="572" y1="27" x2="690" y2="27" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M684 17l14 10-14 10" fill="none" stroke="#22D3EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="730" width="470" height="54" rx="27" fill="url(#accent)" fill-opacity=".2" stroke="#22D3EE" stroke-opacity=".55"/>
+    <text class="sans right" x="765" y="34">Make systems reliable</text>
+  </g>
+
+  <!-- row 2 -->
+  <g transform="translate(0,134)">
+    <rect x="80" width="470" height="54" rx="27" fill="#DBEAFE" fill-opacity=".1" stroke="#93C5FD" stroke-opacity=".45"/>
+    <text class="sans left" x="115" y="34">Ship useful products</text>
+    <line class="flow" x1="572" y1="27" x2="690" y2="27" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M684 17l14 10-14 10" fill="none" stroke="#22D3EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="730" width="470" height="54" rx="27" fill="url(#accent)" fill-opacity=".2" stroke="#22D3EE" stroke-opacity=".55"/>
+    <text class="sans right" x="765" y="34">Solve practical problems</text>
+  </g>
+
+  <!-- row 3 -->
+  <g transform="translate(0,196)">
+    <rect x="80" width="470" height="54" rx="27" fill="#DBEAFE" fill-opacity=".1" stroke="#93C5FD" stroke-opacity=".45"/>
+    <text class="sans left" x="115" y="34">Understand the user</text>
+    <line class="flow" x1="572" y1="27" x2="690" y2="27" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M684 17l14 10-14 10" fill="none" stroke="#22D3EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="730" width="470" height="54" rx="27" fill="url(#accent)" fill-opacity=".2" stroke="#22D3EE" stroke-opacity=".55"/>
+    <text class="sans right" x="765" y="34">Connect technology to growth</text>
+  </g>
+
+  <!-- row 4 -->
+  <g transform="translate(0,258)">
+    <rect x="80" width="470" height="54" rx="27" fill="#DBEAFE" fill-opacity=".1" stroke="#93C5FD" stroke-opacity=".45"/>
+    <text class="sans left" x="115" y="34">Keep improving</text>
+    <line class="flow" x1="572" y1="27" x2="690" y2="27" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M684 17l14 10-14 10" fill="none" stroke="#22D3EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="730" width="470" height="54" rx="27" fill="url(#accent)" fill-opacity=".2" stroke="#22D3EE" stroke-opacity=".55"/>
+    <text class="sans right" x="765" y="34">Learn, test, refine</text>
+  </g>
+</svg>
