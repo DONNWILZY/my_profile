@@ -1,52 +1,119 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="330" viewBox="0 0 1280 330" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="330" viewBox="0 0 1280 330" role="img" aria-labelledby="title desc" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo0NzA4YmJlYS1iMDM4LTRhZWUtODZjMC0wZTNkZmM0ZjFhZjcAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaH2ONGMRBgf3s9p/TZyQ/L4AAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDoxZjFlOTc4MS1hNTZhLTRhN2YtOWFkNS03MmZlYTVjNTljZjFscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoKg69eANR8DxGS5jnrR+goQAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggpupGPM8ypJXm4IZFUHvCI10Qf+uhaVesOcKy8FE+CQikZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaOGCH93+Q+A0b075fUU5RFoAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCBld7r/pWADQgPaL7JB0F2sVSRcMu1nFQ47Kmo8IG4WCmRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjAZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjQ3MDhiYmVhLWIwMzgtNGFlZS04NmMwLTBlM2RmYzRmMWFmNy9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmY4ZDQxMzRlLTdiMTktNGY5NS04MzEwLTVjYjZiZmYxMjdmNXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCCm6kY8zzKklebghkVQe8IjXRB/66FpV6w5wrLwUT4JCKJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgg+JpNH1c0svXipnbg320BTHr/e2NsZG+MnQAfqCgoPTCiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFgghcjB49TYPPFPY9DPu3uKst/5vjlwxk3d2GtRdNVhT3B0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQKYpik1fW/fyQM0kWg5Zepgg0HFyq5UnP3xS+vpOnjJoYr+5+XUMAeV3aKNhX3J/12IajQuLbSTdwiZstptcZmM=</c2pa:manifest></metadata>
   <title id="title">Effiong Godswill — building technology that moves ideas forward</title>
-  <desc id="desc">Royal blue GitHub profile banner with Effiong Godswill's name and expertise.</desc>
+  <desc id="desc">Royal blue GitHub profile banner for Effiong Godswill, backend developer, product builder, growth strategist and founder of GleegX.</desc>
+
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0A1F44"/>
-      <stop offset=".57" stop-color="#1D4ED8"/>
+      <stop offset="0" stop-color="#06142F"/>
+      <stop offset=".55" stop-color="#1235A8"/>
       <stop offset="1" stop-color="#3B82F6"/>
     </linearGradient>
 
-    <linearGradient id="orb" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#93C5FD" stop-opacity=".35"/>
-      <stop offset="1" stop-color="#93C5FD" stop-opacity="0"/>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#BFDBFE"/>
     </linearGradient>
 
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#93C5FD"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#60A5FA" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#60A5FA" stop-opacity="0"/>
+    </radialGradient>
+
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#BFDBFE" stroke-opacity=".10" stroke-width="1"/>
+      <path d="M32 0H0V32" fill="none" stroke="#BFDBFE" stroke-opacity=".08" stroke-width="1"/>
     </pattern>
+
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#020B1F" flood-opacity=".45"/>
+    </filter>
+
+    <clipPath id="frame"><rect width="1280" height="330" rx="26"/></clipPath>
   </defs>
 
-  <rect width="1280" height="330" rx="26" fill="url(#bg)"/>
-  <rect width="1280" height="330" rx="26" fill="url(#grid)"/>
+  <style>
+    .sans { font-family: 'Segoe UI', Arial, Helvetica, sans-serif; }
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .kw { fill: #93C5FD; }
+    .str { fill: #86EFAC; }
+    .txt { fill: #DBEAFE; }
+    .cm { fill: #7FA6E0; }
+  </style>
 
-  <circle cx="1100" cy="100" r="245" fill="url(#orb)"/>
-  <circle cx="1090" cy="160" r="153" fill="none" stroke="#BFDBFE" stroke-opacity=".25" stroke-width="1.5"/>
-  <circle cx="1090" cy="160" r="113" fill="none" stroke="#BFDBFE" stroke-opacity=".20" stroke-width="1.5"/>
-  <circle cx="1090" cy="160" r="73" fill="none" stroke="#BFDBFE" stroke-opacity=".16" stroke-width="1.5"/>
+  <g clip-path="url(#frame)">
+    <!-- Background -->
+    <rect width="1280" height="330" fill="url(#bg)"/>
+    <rect width="1280" height="330" fill="url(#grid)"/>
+    <circle cx="1010" cy="165" r="330" fill="url(#glow)"/>
+    <circle cx="140" cy="360" r="260" fill="url(#glow)" opacity=".5"/>
 
-  <path d="M990 155l-20 19 20 19M1186 155l20 19-20 19M1120 140l-55 72"
-        fill="none" stroke="#DBEAFE" stroke-opacity=".80" stroke-width="8"
-        stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Orbit rings -->
+    <g fill="none" stroke="#BFDBFE" stroke-width="1.5">
+      <circle cx="1010" cy="165" r="190" stroke-opacity=".16"/>
+      <circle cx="1010" cy="165" r="250" stroke-opacity=".10" stroke-dasharray="3 9"/>
+    </g>
+    <g>
+      <circle cx="1200" cy="165" r="5" fill="#22D3EE"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 1010 165" to="360 1010 165" dur="28s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <circle cx="760" cy="165" r="4" fill="#93C5FD"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 1010 165" to="-360 1010 165" dur="40s" repeatCount="indefinite"/>
+    </g>
 
-  <rect x="64" y="54" width="176" height="32" rx="16"
-        fill="#DBEAFE" fill-opacity=".14"
-        stroke="#93C5FD" stroke-opacity=".35"/>
+    <!-- Left: identity -->
+    <rect x="64" y="46" width="268" height="34" rx="17" fill="#DBEAFE" fill-opacity=".12" stroke="#93C5FD" stroke-opacity=".4"/>
+    <circle cx="87" cy="63" r="4.5" fill="#22D3EE">
+      <animate attributeName="opacity" values="1;.25;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <text class="sans" x="102" y="68" fill="#EFF6FF" font-size="13" font-weight="700" letter-spacing="2">CODE × STRATEGY × GROWTH</text>
 
-  <text x="86" y="75" fill="#EFF6FF" font-size="14"
-        font-family="Arial, Helvetica, sans-serif"
-        font-weight="700" letter-spacing="2">CODE × STRATEGY</text>
+    <text class="sans" x="62" y="146" fill="url(#name)" font-size="62" font-weight="800" letter-spacing="-1">Effiong Godswill</text>
 
-  <text x="64" y="156" fill="#FFFFFF" font-size="59"
-        font-family="Arial, Helvetica, sans-serif"
-        font-weight="700">Effiong Godswill</text>
+    <text class="sans" x="64" y="188" fill="#DBEAFE" font-size="23">Backend Developer  •  Product Builder  •  Growth Strategist</text>
 
-  <text x="66" y="203" fill="#DBEAFE" font-size="25"
-        font-family="Arial, Helvetica, sans-serif">Backend Developer  •  Product Builder  •  Growth Strategist</text>
+    <rect x="64" y="212" width="5" height="26" rx="2.5" fill="url(#accent)"/>
+    <text class="sans" x="82" y="232" fill="#EFF6FF" font-size="19">Building useful products. Creating meaningful impact.</text>
 
-  <rect x="66" y="246" width="54" height="4" rx="2" fill="#93C5FD"/>
+    <!-- Chips -->
+    <g class="sans" font-size="13" font-weight="700" fill="#EFF6FF" letter-spacing=".5">
+      <rect x="64" y="262" width="112" height="32" rx="16" fill="#0A1F44" fill-opacity=".45" stroke="#93C5FD" stroke-opacity=".4"/>
+      <text x="120" y="282" text-anchor="middle">Web &amp; Mobile</text>
 
-  <text x="134" y="256" fill="#EFF6FF" font-size="19"
-        font-family="Arial, Helvetica, sans-serif">Building useful products. Creating meaningful impact.</text>
+      <rect x="186" y="262" width="82" height="32" rx="16" fill="#0A1F44" fill-opacity=".45" stroke="#93C5FD" stroke-opacity=".4"/>
+      <text x="227" y="282" text-anchor="middle">APIs</text>
+
+      <rect x="278" y="262" width="108" height="32" rx="16" fill="#0A1F44" fill-opacity=".45" stroke="#93C5FD" stroke-opacity=".4"/>
+      <text x="332" y="282" text-anchor="middle">Cybersecurity</text>
+
+      <rect x="396" y="262" width="150" height="32" rx="16" fill="url(#accent)" fill-opacity=".22" stroke="#22D3EE" stroke-opacity=".6"/>
+      <text x="471" y="282" text-anchor="middle">Founder @ GleegX</text>
+    </g>
+
+    <!-- Right: code card -->
+    <g filter="url(#shadow)">
+      <rect x="800" y="52" width="410" height="226" rx="18" fill="#06142F" fill-opacity=".72" stroke="#BFDBFE" stroke-opacity=".28"/>
+    </g>
+    <path d="M800 70a18 18 0 0 1 18-18h374a18 18 0 0 1 18 18v22H800z" fill="#DBEAFE" fill-opacity=".08"/>
+    <circle cx="825" cy="72" r="6" fill="#F87171"/>
+    <circle cx="845" cy="72" r="6" fill="#FBBF24"/>
+    <circle cx="865" cy="72" r="6" fill="#4ADE80"/>
+    <text class="mono" x="1195" y="76" fill="#7FA6E0" font-size="12" text-anchor="end">godswill.js</text>
+
+    <g class="mono" font-size="16">
+      <text x="826" y="124"><tspan class="kw">const</tspan> <tspan class="txt">godswill</tspan> <tspan class="kw">=</tspan> <tspan class="txt">{</tspan></text>
+      <text x="850" y="150"><tspan class="txt">role:</tspan> <tspan class="str">"Founder, GleegX"</tspan><tspan class="txt">,</tspan></text>
+      <text x="850" y="176"><tspan class="txt">builds:</tspan> <tspan class="txt">[</tspan><tspan class="str">"web"</tspan><tspan class="txt">,</tspan> <tspan class="str">"mobile"</tspan><tspan class="txt">,</tspan> <tspan class="str">"APIs"</tspan><tspan class="txt">],</tspan></text>
+      <text x="850" y="202"><tspan class="txt">mission:</tspan> <tspan class="str">"scale African brands"</tspan><tspan class="txt">,</tspan></text>
+      <text x="826" y="228"><tspan class="txt">};</tspan></text>
+      <text x="826" y="256"><tspan class="cm">// ship. learn. iterate.</tspan></text>
+    </g>
+    <rect x="1000" y="243" width="9" height="17" fill="#22D3EE">
+      <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
 </svg>
