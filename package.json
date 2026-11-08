@@ -1,0 +1,25 @@
+{
+  "name": "godswill-portfolio",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource/dm-sans": "^5.1.1",
+    "@fontsource/manrope": "^5.1.1",
+    "gsap": "^3.12.5",
+    "lucide": "^0.468.0",
+    "motion": "^11.11.17"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16",
+    "typescript": "~5.6.3",
+    "vite": "^6.0.1"
+  }
+}
