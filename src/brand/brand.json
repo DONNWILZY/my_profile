@@ -1,0 +1,122 @@
+{
+  "name": "Godswill",
+  "fullName": "Effiong Godswill",
+  "initials": "EG",
+  "tagline": "Build with purpose. Grow with intention.",
+  "description": "Effiong Godswill is a software engineer, digital marketing strategist, and public speaker connecting technology, storytelling, and business growth.",
+  "shortDescription": "Engineering, growth, and ideas that move people forward.",
+  "location": "Nigeria",
+  "locationLine": "Based in Nigeria. Working globally.",
+  "footerHeadline": "Let's build something valuable.",
+  "colors": {
+    "primary": "#4169E1",
+    "primaryHover": "#3054C1",
+    "navy": "#0A1F44",
+    "ink": "#20334C",
+    "muted": "#6A7A91",
+    "surface": "#F4F7FF",
+    "tint": "#E7EFFB",
+    "border": "#DFE6EF",
+    "accent": "#8BC8FF",
+    "white": "#FFFFFF"
+  },
+  "fonts": {
+    "body": "DM Sans",
+    "display": "Manrope"
+  },
+  "assets": {
+    "mark": "brand/mark.svg",
+    "wordmark": "brand/wordmark.svg",
+    "wordmarkInverse": "brand/wordmark-inverse.svg",
+    "socialCard": "brand/social-card.svg",
+    "manifest": "brand/site.webmanifest",
+    "socialImage": "brand/social-card.png"
+  },
+  "hero": {
+    "titleFirst": "Building smarter.",
+    "titleSecondLead": "Creating ",
+    "titleAccent": "impact.",
+    "description": "I bring software, strategy, and storytelling together to turn ambitious ideas into useful experiences."
+  },
+  "auth": {
+    "eyebrow": "YOUR NEXT CHAPTER",
+    "signupDescription": "A place to connect, learn, and grow together.",
+    "loginDescription": "Your space for what comes next."
+  },
+  "socials": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/DONNWILZY"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/donnwilzy/"
+    },
+    {
+      "name": "X",
+      "url": "https://x.com/donnwilzy"
+    },
+    {
+      "name": "TikTok",
+      "url": "https://www.tiktok.com/@donnwilzy"
+    }
+  ],
+  "pages": {
+    "/": {
+      "title": "Engineering, Growth & Speaking",
+      "description": "Explore Effiong Godswill's work in software engineering, digital marketing, speaking, and practical training."
+    },
+    "/about": {
+      "title": "About",
+      "description": "Meet Effiong Godswill and explore the values, experience, and approach behind the work."
+    },
+    "/engineering": {
+      "title": "Software Engineering",
+      "description": "Web applications, backend systems, APIs, and product engineering shaped around real needs."
+    },
+    "/marketing": {
+      "title": "Digital Marketing",
+      "description": "Explore digital strategy, content, SEO, and growth consultancy with Effiong Godswill."
+    },
+    "/portfolio": {
+      "title": "Portfolio",
+      "description": "Selected projects across software engineering, digital products, and growth."
+    },
+    "/speaking": {
+      "title": "Speaking",
+      "description": "Talks and workshops about technology, digital skills, and turning ideas into opportunities."
+    },
+    "/training": {
+      "title": "Training",
+      "description": "Explore practical training in technology, digital marketing, and communication."
+    },
+    "/blog": {
+      "title": "Insights",
+      "description": "Ideas and perspectives on building useful products, growing brands, and working with intention."
+    },
+    "/events": {
+      "title": "Events",
+      "description": "Speaking appearances, community conversations, and confirmed event announcements."
+    },
+    "/community": {
+      "title": "Community",
+      "description": "Connect around technology, digital skills, shared ideas, and creative work."
+    },
+    "/book": {
+      "title": "Book a Session",
+      "description": "Start a conversation about engineering, growth, training, or a speaking invitation."
+    },
+    "/contact": {
+      "title": "Contact",
+      "description": "Get in touch with Effiong Godswill about projects, partnerships, and speaking invitations."
+    },
+    "/login": {
+      "title": "Log in",
+      "description": "Account access for the Godswill community. Coming soon."
+    },
+    "/signup": {
+      "title": "Sign up",
+      "description": "Create your Godswill account when registration launches."
+    }
+  }
+}

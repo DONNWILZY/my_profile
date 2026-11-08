@@ -1,0 +1,38 @@
+.brand-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: calc(var(--brand-logo-size, 40px) * .25);
+  vertical-align: middle;
+  flex-shrink: 0;
+  color: var(--brand-navy, #0a1f44);
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.brand-logo__mark {
+  display: block;
+  flex: 0 0 auto;
+  width: var(--brand-logo-size, 40px);
+  height: var(--brand-logo-size, 40px);
+  border-radius: calc(var(--brand-logo-size, 40px) * .28);
+}
+
+.brand-logo__wordmark {
+  font-family: var(--brand-font-display, 'Manrope'), sans-serif;
+  font-size: calc(var(--brand-logo-size, 40px) * .56);
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: -.055em;
+}
+
+.brand-logo__dot {
+  color: var(--brand-primary, #4169e1);
+}
+
+.brand-logo--inverse {
+  color: var(--brand-white, #fff);
+}
+
+.brand-logo--inverse .brand-logo__dot {
+  color: var(--brand-accent, #8bc8ff);
+}

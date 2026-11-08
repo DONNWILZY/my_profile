@@ -1,6 +1,8 @@
 import {useEffect, useRef, useState} from 'react';
 import {Link, NavLink, useLocation} from 'react-router-dom';
 import { ChevronDown, Menu, X} from 'lucide-react';
+import {brand} from '../brand';
+import BrandLogo from './BrandLogo';
 import './navigation.css';
 
 const groups = [
@@ -31,7 +33,7 @@ export default function Header(){
   return <header ref={root} className="site-header" onBlur={event=>{if(!event.currentTarget.contains(event.relatedTarget as Node)){setExpanded(null);setOpen(false)}}}>
     <a className="skip-navigation" href="#main-content">Skip to content</a>
     <div className="site-header-inner">
-      <Link to="/" className="site-brand" aria-label="Effiong Godswill home"><span className="site-monogram">EG.</span><span>Godswill<span className="brand-dot">.</span></span></Link>
+      <Link to="/" className="site-brand" aria-label={`${brand.fullName} home`}><BrandLogo/></Link>
       <button ref={toggle} className="navigation-toggle" type="button" aria-expanded={open} aria-controls="site-navigation" aria-label={open?'Close navigation':'Open navigation'} onClick={()=>{setOpen(!open);setExpanded(null)}}>{open?<X size={23}/>:<Menu size={23}/>}</button>
       <div id="site-navigation" className={'site-navigation'+(open?' is-open':'')}>
         <nav className="site-nav-links" aria-label="Main navigation">

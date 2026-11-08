@@ -40,3 +40,7 @@ Shared navigation lives in `src/components/Header.tsx`, with styles in `src/comp
 `/login` and `/signup` render `src/components/AuthPage.tsx`. These are UI previews with disabled submission: no credentials are sent or stored, and no accounts or sessions are created. Connect an authentication provider and implement server-side session handling, verification, and password recovery before enabling account access.
 
 The homepage hero is in `src/components/Hero.tsx` and `src/components/hero.css`. Its animated photo stack uses the two local photographs in `my profile/images`, with a repeated crop for the third card. Replace entries in `photographs` to add more photos. Animation can be paused and respects reduced-motion preferences. Sign up is linked from the login page only.
+
+## Shared branding
+
+Identity, messaging, colors, social links, and page metadata live in `src/brand/brand.json`. See [BRANDING.md](BRANDING.md) for the logo variants, generated assets, and usage. `npm run brand:generate` refreshes SVGs and the app manifest; `npm run brand:render` also exports the social PNG. Both development and builds regenerate the vector assets automatically.

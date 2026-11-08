@@ -1,3 +1,4 @@
+import {brand} from './brand';
 export type Project={title:string;category:'Engineering'|'Growth'|'Product';summary:string;tags:string[];link:string;accent:string;mark:string};
 export const projects:Project[]=[
 {title:'My LPG Hub',category:'Product',summary:'An LPG marketplace bringing vendors, customers and delivery operations into one digital experience.',tags:['Marketplace','Laravel','Operations'],link:'https://mylpg.site/',accent:'from-blue-100 to-indigo-50',mark:'LPG'},
@@ -11,7 +12,7 @@ export const services=[
 {slug:'engineering',title:'Software Engineering',description:'Reliable digital products, crafted from concept to launch.',items:['Web application development','Backend APIs & integrations','Mobile app architecture','Authentication & database systems','Technical consulting & product strategy']},
 {slug:'marketing',title:'Digital Marketing & Growth',description:'Make your brand discoverable, memorable and commercially effective.',items:['Digital strategy & growth roadmaps','SEO and organic acquisition','Social media & content strategy','Lead generation & conversion funnels','Campaign analysis and optimisation']}
 ];
-export const socials=[{name:'GitHub',url:'https://github.com/DONNWILZY'},{name:'LinkedIn',url:'https://www.linkedin.com/in/donnwilzy/'},{name:'X',url:'https://x.com/donnwilzy'},{name:'TikTok',url:'https://www.tiktok.com/@donnwilzy'}];
+export const socials=brand.socials;
 export type Entry={slug:string;title:string;category:string;date:string;excerpt:string;body:string};
 export const posts:Entry[]=[
 {slug:'engineering-meets-growth',title:'Where software engineering meets digital growth',category:'Strategy',date:'Editorial draft',excerpt:'Products become more valuable when engineering and marketing solve the same customer problem.',body:'A strong digital product is not only technically dependable. It also has to be discoverable, understandable, and valuable to the people it serves. My approach brings product engineering, analytics, user experience, and digital growth into the same conversation.'},
