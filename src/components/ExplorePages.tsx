@@ -1,31 +1,6 @@
 import {Link} from 'react-router-dom';
 import {socials} from '../data';
 
-export function Training(){
-  return <div className="container-wide py-20">
-    <div className="mb-10 max-w-3xl">
-      <p className="eyebrow mb-4">Training</p>
-      <h1 className="display text-4xl sm:text-5xl lg:text-6xl">Practical skills. Real possibilities.</h1>
-      <p className="prose-copy mt-6">Explore training in technology, digital marketing, and communication. Get in touch to discuss your learning goals or a workshop for your team.</p>
-    </div>
-    <div className="grid gap-6 md:grid-cols-3">
-      {[
-        ['Software engineering','Web development, backend fundamentals, APIs, and building useful digital products.'],
-        ['Digital marketing','Content strategy, SEO, audience development, and measuring campaign results.'],
-        ['Digital skills & communication','Working with digital tools, presenting ideas clearly, and exploring opportunities in technology.'],
-      ].map(([title,description])=><article key={title} className="rounded-3xl border border-slate-100 bg-white p-8">
-        <h2 className="font-display text-xl font-bold">{title}</h2>
-        <p className="mt-4 text-sm leading-7 text-slate-600">{description}</p>
-      </article>)}
-    </div>
-    <div className="mt-10 rounded-3xl bg-blue-50 p-8 sm:p-10">
-      <h2 className="font-display text-2xl font-bold">What would you like to learn?</h2>
-      <p className="mt-3 max-w-2xl text-sm leading-7 text-slate-600">Share your experience level, the topics you want to explore, and whether you are learning individually or with a team.</p>
-      <Link to="/contact" className="btn-primary mt-6">Enquire about training</Link>
-    </div>
-  </div>;
-}
-
 export function Community(){
   return <div className="container-wide py-20">
     <div className="mb-10 max-w-3xl">

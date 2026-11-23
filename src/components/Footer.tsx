@@ -21,7 +21,7 @@ export default function Footer({compact=false}: {compact?: boolean}){
         <div className="flex flex-wrap gap-12">
           <div>
             <p className="mb-5 text-xs uppercase tracking-widest text-blue-200">Explore</p>
-            <div className="flex flex-col gap-3 text-sm">{[['/portfolio','Work'],['/training','Training'],['/community','Community'],['/blog','Insights'],['/book','Booking']].map(([to,label])=><Link key={to} to={to} className="hover:text-blue-300">{label}</Link>)}</div>
+            <div className="flex flex-col gap-3 text-sm">{[['/portfolio','Work'],['/courses','Courses'],['/digital-products','Digital products'],['/community','Community'],['/blog','Insights'],['/book','Booking']].map(([to,label])=><Link key={to} to={to} className="hover:text-blue-300">{label}</Link>)}</div>
           </div>
           <div>
             <p className="mb-5 text-xs uppercase tracking-widest text-blue-200">Connect</p>

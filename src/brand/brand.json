@@ -64,7 +64,7 @@
   "pages": {
     "/": {
       "title": "Engineering, Growth & Speaking",
-      "description": "Explore Effiong Godswill's work in software engineering, digital marketing, speaking, and practical training."
+      "description": "Explore Effiong Godswill's work in software engineering, digital marketing, speaking, courses, and cohort training."
     },
     "/about": {
       "title": "About",
@@ -87,8 +87,8 @@
       "description": "Talks and workshops about technology, digital skills, and turning ideas into opportunities."
     },
     "/training": {
-      "title": "Training",
-      "description": "Explore practical training in technology, digital marketing, and communication."
+      "title": "Courses & Cohort Training",
+      "description": "Explore upcoming individual courses and batch or cohort training in web development, digital marketing, and communication."
     },
     "/blog": {
       "title": "Insights",
@@ -108,7 +108,7 @@
     },
     "/contact": {
       "title": "Contact",
-      "description": "Get in touch with Effiong Godswill about projects, partnerships, and speaking invitations."
+      "description": "Get in touch with Effiong Godswill about projects, courses, cohort training, digital products, and speaking invitations."
     },
     "/login": {
       "title": "Log in",
@@ -125,6 +125,14 @@
     "/marketing/projects": {
       "title": "Marketing Projects",
       "description": "Explore GleegX Media and its connected focus studies in search, content, and lead generation."
+    },
+    "/courses": {
+      "title": "Courses & Cohort Training",
+      "description": "Explore upcoming individual courses and batch or cohort training in web development, digital marketing, and communication."
+    },
+    "/digital-products": {
+      "title": "Digital Products",
+      "description": "Explore digital platforms and practical resources from Effiong Godswill, including a downloadable product planning worksheet."
     }
   }
 }

@@ -6,7 +6,7 @@ import BrandLogo from './BrandLogo';
 import './navigation.css';
 
 const groups = [
-  {label:'Services', links:[['/engineering','Software engineering'],['/marketing','Digital marketing'],['/speaking','Speaking & workshops'],['/training','Training']]},
+  {label:'Services', links:[['/engineering','Software engineering'],['/marketing','Digital marketing'],['/speaking','Speaking & workshops'],['/courses','Courses'],['/digital-products','Digital products']]},
   {label:'Insights', links:[['/blog','Blog'],['/events','Events'],['/community','Community']]},
 ];
 
@@ -31,7 +31,7 @@ export default function Header({inverse=false}: {inverse?: boolean}){
     return ()=>{document.removeEventListener('keydown',onKey);document.removeEventListener('pointerdown',onPointer);media.removeEventListener('change',onResize)};
   },[open,expanded]);
   return <header ref={root} className="site-header" onBlur={event=>{if(!event.currentTarget.contains(event.relatedTarget as Node)){setExpanded(null);setOpen(false)}}}>
-    <a className="skip-navigation" href="#main-content">Skip to content</a>
+    <a className="skip-navigation" href="#main-content" onClick={event=>{event.preventDefault();document.getElementById('main-content')?.focus();document.getElementById('main-content')?.scrollIntoView({block:'start'})}}>Skip to content</a>
     <div className="site-header-inner">
       <Link to="/" className="site-brand" aria-label={`${brand.fullName} home`}><BrandLogo variant={inverse ? 'inverse' : 'default'}/></Link>
       <button ref={toggle} className="navigation-toggle" type="button" aria-expanded={open} aria-controls="site-navigation" aria-label={open?'Close navigation':'Open navigation'} onClick={()=>{setOpen(!open);setExpanded(null)}}>{open?<X size={23}/>:<Menu size={23}/>}</button>

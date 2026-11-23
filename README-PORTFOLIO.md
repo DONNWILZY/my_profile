@@ -58,3 +58,11 @@ Each discipline portfolio keeps three featured cards. `View all projects` opens 
 `src/projectCatalog.ts` holds the case-study catalog, featured selection, scope, approach, parent relationships, and route helpers. `src/data.ts` holds the six original project records and their stable slugs. Engineering currently has five projects; marketing includes GleegX Media and three explicitly labeled focus studies within that project. Add genuine projects to the source records and catalog rather than duplicating cards in the page components.
 
 Expanded pages include context, scope, approach, focus areas, external resources, related work from the same discipline, and a project-not-found state for invalid slugs. `src/components/ProjectPages.tsx` renders collections and details; `ProjectVisual.tsx` reuses the illustrative previews. Existing HashRouter deployment means browser links include `#/engineering/projects/...` or `#/marketing/projects/...`.
+
+## Courses, cohorts, and digital products
+
+`/courses` replaces Training in the navigation; `/training` redirects to it. The catalog supports search and individual/cohort filters, with the filter state retained when returning from details. `/courses/:slug` shows an individual course; `/courses/cohorts/:slug` shows a batch training offering. `src/courseCatalog.ts` holds the proposed outlines, audiences, prerequisites, and related formats. These are upcoming offerings: dates, delivery arrangements, and fees must be confirmed before enrollment opens. No payment or enrollment is simulated.
+
+`/digital-products` lists platforms and downloadable resources. `/digital-products/:slug` expands the product's purpose, features, and access information. Edit `src/digitalProductsData.ts` to manage the collection. The planning worksheet is an actual editable Markdown download in `public/resources/`. Asset links use the Vite base path so downloads also work on GitHub Pages.
+
+`src/components/Courses.tsx` and `DigitalProducts.tsx` share the blue brand styling in `offerings.css`. Both have missing-item states and dynamic page metadata. Course and product enquiry links prefill `ContactPage.tsx` through `topic` and `item` query parameters. Visitors can edit and copy their enquiry locally, or open an email app when `VITE_CONTACT_EMAIL` is configured. Messages are not submitted to a server.
