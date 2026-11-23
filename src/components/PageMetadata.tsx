@@ -1,3 +1,4 @@
+import {caseStudyForPath} from '../projectCatalog';
 import {useEffect} from 'react';
 import {useLocation} from 'react-router-dom';
 import {brand, pageMetadata} from '../brand';
@@ -7,7 +8,10 @@ export default function PageMetadata(){
   const {pathname} = useLocation();
   useEffect(()=>{
     const article = pathname.startsWith('/blog/') ? posts.find(post=>`/blog/${post.slug}` === pathname) : undefined;
-    const page = article
+    const project = caseStudyForPath(pathname);
+    const page = project
+      ? {title: `${project.title} | ${brand.fullName}`, description: project.summary}
+      : article
       ? {title: `${article.title} | ${brand.fullName}`, description: article.excerpt}
       : pageMetadata(pathname);
     document.title = page.title;

@@ -2,7 +2,13 @@ import {Link} from 'react-router-dom';
 import {brand} from '../brand';
 import BrandLogo from './BrandLogo';
 
-export default function Footer(){
+export default function Footer({compact=false}: {compact?: boolean}){
+  if(compact)return <footer className="portfolio-footer">
+    <Link to="/" aria-label={`${brand.fullName} home`}><BrandLogo variant="inverse" markOnly/></Link>
+    <p>{brand.tagline}</p>
+    <nav aria-label="Social profiles">{brand.socials.map(social=><a key={social.name} href={social.url} target="_blank" rel="noopener noreferrer">{social.name}</a>)}</nav>
+    <small>&copy; {new Date().getFullYear()} {brand.fullName}. All rights reserved.</small>
+  </footer>;
   return <footer className="bg-navy text-white">
     <div className="container-wide py-16">
       <div className="flex flex-col justify-between gap-12 md:flex-row">

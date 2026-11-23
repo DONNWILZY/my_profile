@@ -71,12 +71,12 @@
       "description": "Meet Effiong Godswill and explore the values, experience, and approach behind the work."
     },
     "/engineering": {
-      "title": "Software Engineering",
-      "description": "Web applications, backend systems, APIs, and product engineering shaped around real needs."
+      "title": "Engineering Portfolio",
+      "description": "Explore software engineering, backend systems, and digital product projects by Effiong Godswill."
     },
     "/marketing": {
-      "title": "Digital Marketing",
-      "description": "Explore digital strategy, content, SEO, and growth consultancy with Effiong Godswill."
+      "title": "Marketing Portfolio",
+      "description": "Explore digital marketing, content, SEO, and growth work by Effiong Godswill."
     },
     "/portfolio": {
       "title": "Portfolio",
@@ -117,6 +117,14 @@
     "/signup": {
       "title": "Sign up",
       "description": "Create your Godswill account when registration launches."
+    },
+    "/engineering/projects": {
+      "title": "Engineering Projects",
+      "description": "Explore software engineering projects, including platform development, authentication, booking, and publishing."
+    },
+    "/marketing/projects": {
+      "title": "Marketing Projects",
+      "description": "Explore GleegX Media and its connected focus studies in search, content, and lead generation."
     }
   }
 }

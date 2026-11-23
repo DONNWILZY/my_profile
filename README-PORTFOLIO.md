@@ -44,3 +44,17 @@ The homepage hero is in `src/components/Hero.tsx` and `src/components/hero.css`.
 ## Shared branding
 
 Identity, messaging, colors, social links, and page metadata live in `src/brand/brand.json`. See [BRANDING.md](BRANDING.md) for the logo variants, generated assets, and usage. `npm run brand:generate` refreshes SVGs and the app manifest; `npm run brand:render` also exports the social PNG. Both development and builds regenerate the vector assets automatically.
+
+## Discipline portfolios
+
+`/engineering` and `/marketing` now use the video-inspired portfolio layout in `src/components/DisciplinePortfolio.tsx`, with separate content in `src/portfolioData.ts`. The pages reuse the shared brand palette, navigation, and logos. Project visuals are illustrative, and marketing presents three connected focus areas within GleegX Media rather than inventing additional clients or results.
+
+The project form prepares a brief locally. Visitors can download it and choose a contact method; when `VITE_CONTACT_EMAIL` is set, they can open a prefilled email. The form does not send messages or claim server-side delivery.
+
+## Project collections and expanded details
+
+Each discipline portfolio keeps three featured cards. `View all projects` opens `/engineering/projects` or `/marketing/projects`; selecting any card opens `/<discipline>/projects/<slug>`. Collections include featured and additional work, with search, Featured/More work filters, and preserved filters when returning from a detail page. The general `/portfolio` and homepage project links also open internal details first.
+
+`src/projectCatalog.ts` holds the case-study catalog, featured selection, scope, approach, parent relationships, and route helpers. `src/data.ts` holds the six original project records and their stable slugs. Engineering currently has five projects; marketing includes GleegX Media and three explicitly labeled focus studies within that project. Add genuine projects to the source records and catalog rather than duplicating cards in the page components.
+
+Expanded pages include context, scope, approach, focus areas, external resources, related work from the same discipline, and a project-not-found state for invalid slugs. `src/components/ProjectPages.tsx` renders collections and details; `ProjectVisual.tsx` reuses the illustrative previews. Existing HashRouter deployment means browser links include `#/engineering/projects/...` or `#/marketing/projects/...`.

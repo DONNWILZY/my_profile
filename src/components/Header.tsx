@@ -10,7 +10,7 @@ const groups = [
   {label:'Insights', links:[['/blog','Blog'],['/events','Events'],['/community','Community']]},
 ];
 
-export default function Header(){
+export default function Header({inverse=false}: {inverse?: boolean}){
   const [open,setOpen]=useState(false);
   const [expanded,setExpanded]=useState<string|null>(null);
   const location=useLocation();
@@ -33,7 +33,7 @@ export default function Header(){
   return <header ref={root} className="site-header" onBlur={event=>{if(!event.currentTarget.contains(event.relatedTarget as Node)){setExpanded(null);setOpen(false)}}}>
     <a className="skip-navigation" href="#main-content">Skip to content</a>
     <div className="site-header-inner">
-      <Link to="/" className="site-brand" aria-label={`${brand.fullName} home`}><BrandLogo/></Link>
+      <Link to="/" className="site-brand" aria-label={`${brand.fullName} home`}><BrandLogo variant={inverse ? 'inverse' : 'default'}/></Link>
       <button ref={toggle} className="navigation-toggle" type="button" aria-expanded={open} aria-controls="site-navigation" aria-label={open?'Close navigation':'Open navigation'} onClick={()=>{setOpen(!open);setExpanded(null)}}>{open?<X size={23}/>:<Menu size={23}/>}</button>
       <div id="site-navigation" className={'site-navigation'+(open?' is-open':'')}>
         <nav className="site-nav-links" aria-label="Main navigation">
