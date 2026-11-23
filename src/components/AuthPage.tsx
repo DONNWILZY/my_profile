@@ -14,5 +14,5 @@ export default function AuthPage({mode}:{mode:'login'|'signup'}){
     <label className="auth-show-password"><input type="checkbox" checked={visible} onChange={event=>setVisible(event.target.checked)}/>Show password</label>
     <button className="auth-submit" disabled type="submit">{signup?'Sign up':'Log in'} — coming soon </button>
     <p className="auth-privacy">This preview does not send or save your details.</p>
-  </form><p className="auth-switch">{signup?'Already have an account?':'New here?'} <Link to={signup?'/login':'/signup'}>{signup?'Log in':'Sign up'}</Link></p></div><Link className="auth-back" to="/">Back to home</Link></section>;
+  </form><p className="auth-switch">{signup?'Already have an account?':'New here?'} <Link to={signup?'/login':'/signup'}>{signup?'Log in':'Sign up'}</Link></p></div><Link className="btn-primary mt-6" to="/dashboard">Open my personal dashboard</Link><p className="mt-3 max-w-sm text-center text-xs leading-6 text-muted">Save course plans, notes, and booking ideas on this device while account access is being prepared.</p><Link className="auth-back" to="/">Back to home</Link></section>;
 }

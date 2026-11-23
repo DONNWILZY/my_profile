@@ -4,6 +4,7 @@ import {useEffect, useId, useState, type FormEvent} from 'react';
 import {Link} from 'react-router-dom';
 import {motion, useReducedMotion} from 'framer-motion';
 import {brand} from '../brand';
+import {useDashboard} from '../dashboard/DashboardProvider';
 import {posts} from '../data';
 import {disciplinePortfolios, type Discipline} from '../portfolioData';
 import portrait from '../../my profile/images/IMG-20190209-WA0004.jpg';
@@ -15,6 +16,7 @@ const MotionLink = motion(Link);
 const sections = [['services','Services'], ['works','Works'], ['insights','Insights']] as const;
 
 export default function DisciplinePortfolio({discipline}: {discipline: Discipline}){
+  const {saveEnquiry} = useDashboard();
   const data = disciplinePortfolios[discipline];
   const reduced = useReducedMotion();
   const filterId = `portrait-key-${useId().replace(/:/g,'')}`;
@@ -40,7 +42,9 @@ export default function DisciplinePortfolio({discipline}: {discipline: Disciplin
 
   const prepareProject = (event: FormEvent<HTMLFormElement>)=>{
     event.preventDefault();
-    setPreparedBrief(`${data.enquiry}\n\nName: ${name.trim()}\nEmail: ${senderEmail.trim()}\n\nProject details:\n${message.trim()}`);
+    const brief = `${data.enquiry}\n\nName: ${name.trim()}\nEmail: ${senderEmail.trim()}\n\nProject details:\n${message.trim()}`;
+    setPreparedBrief(brief);
+    saveEnquiry({topic: discipline === 'engineering' ? 'Software engineering' : 'Digital marketing consultancy', item: data.enquiry, message: brief});
   };
 
   return <article className={`discipline-portfolio discipline-${discipline}`}>

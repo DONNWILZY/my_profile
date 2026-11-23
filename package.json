@@ -8,10 +8,14 @@
     "brand:render": "node scripts/generate-brand.mjs && node scripts/render-brand.mjs",
     "predev": "npm run brand:generate",
     "prebuild": "npm run brand:generate",
-    "dev": "vite",
+    "dev": "node scripts/dev.mjs",
     "build": "tsc -b && vite build",
+    "postbuild": "node scripts/prepare-spa-host.mjs",
     "preview": "vite preview",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "start": "node server/schedule-server.mjs",
+    "test:schedule": "node --test tests/schedule-server.test.mjs",
+    "test:routing": "node --test tests/spa-routing.test.mjs"
   },
   "dependencies": {
     "@fontsource/dm-sans": "^5.1.1",

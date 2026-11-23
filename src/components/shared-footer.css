@@ -1,0 +1,6 @@
+footer.site-footer{background:var(--brand-navy);color:var(--brand-white);border-radius:0;font-size:16px}
+footer.site-footer .container-wide.site-footer-inner{max-width:1100px;padding-top:64px;padding-bottom:64px}
+footer.site-footer .site-footer-inner .site-footer-headline{font-size:30px;line-height:1.2}
+footer.site-footer .site-footer-inner .btn-primary{background:var(--brand-accent);color:var(--brand-navy)}
+footer.site-footer .site-footer-inner .btn-primary:hover{background:var(--brand-tint)}
+footer.site-footer .brand-logo{--brand-logo-size:40px}

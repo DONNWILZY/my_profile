@@ -1,27 +1,22 @@
 import {Link} from 'react-router-dom';
 import {brand} from '../brand';
 import BrandLogo from './BrandLogo';
+import './shared-footer.css';
 
-export default function Footer({compact=false}: {compact?: boolean}){
-  if(compact)return <footer className="portfolio-footer">
-    <Link to="/" aria-label={`${brand.fullName} home`}><BrandLogo variant="inverse" markOnly/></Link>
-    <p>{brand.tagline}</p>
-    <nav aria-label="Social profiles">{brand.socials.map(social=><a key={social.name} href={social.url} target="_blank" rel="noopener noreferrer">{social.name}</a>)}</nav>
-    <small>&copy; {new Date().getFullYear()} {brand.fullName}. All rights reserved.</small>
-  </footer>;
-  return <footer className="bg-navy text-white">
-    <div className="container-wide py-16">
+export default function Footer(){
+  return <footer className="site-footer bg-navy text-white">
+    <div className="site-footer-inner container-wide py-16">
       <div className="flex flex-col justify-between gap-12 md:flex-row">
         <div className="max-w-md">
           <Link to="/" aria-label={`${brand.fullName} home`} className="mb-7 inline-flex"><BrandLogo variant="inverse"/></Link>
-          <p className="font-display text-3xl font-extrabold">{brand.footerHeadline}</p>
+          <p className="site-footer-headline font-display text-3xl font-extrabold">{brand.footerHeadline}</p>
           <p className="mt-4 text-blue-100/80">{brand.shortDescription}</p>
           <Link to="/contact" className="btn-primary mt-7">Start a conversation</Link>
         </div>
         <div className="flex flex-wrap gap-12">
           <div>
             <p className="mb-5 text-xs uppercase tracking-widest text-blue-200">Explore</p>
-            <div className="flex flex-col gap-3 text-sm">{[['/portfolio','Work'],['/courses','Courses'],['/digital-products','Digital products'],['/community','Community'],['/blog','Insights'],['/book','Booking']].map(([to,label])=><Link key={to} to={to} className="hover:text-blue-300">{label}</Link>)}</div>
+            <div className="flex flex-col gap-3 text-sm">{[['/portfolio','Work'],['/courses','Courses'],['/digital-products','Digital products'],['/dashboard','My dashboard'],['/community','Community'],['/blog','Insights'],['/book','Booking']].map(([to,label])=><Link key={to} to={to} className="hover:text-blue-300">{label}</Link>)}</div>
           </div>
           <div>
             <p className="mb-5 text-xs uppercase tracking-widest text-blue-200">Connect</p>

@@ -103,8 +103,8 @@
       "description": "Connect around technology, digital skills, shared ideas, and creative work."
     },
     "/book": {
-      "title": "Book a Session",
-      "description": "Start a conversation about engineering, growth, training, or a speaking invitation."
+      "title": "Book an Appointment",
+      "description": "Choose a conversation and reserve an available time with Effiong Godswill."
     },
     "/contact": {
       "title": "Contact",
@@ -133,6 +133,46 @@
     "/digital-products": {
       "title": "Digital Products",
       "description": "Explore digital platforms and practical resources from Effiong Godswill, including a downloadable product planning worksheet."
+    },
+    "/dashboard": {
+      "title": "My Dashboard",
+      "description": "Keep track of appointments, projects, learning, saved reading, resources, events, offers, and enquiries."
+    },
+    "/dashboard/courses": {
+      "title": "My Learning",
+      "description": "Track your personal course plans, review module outlines, and keep learning notes."
+    },
+    "/dashboard/bookings": {
+      "title": "My Appointments",
+      "description": "Reserve, reschedule, and cancel appointments with shared live availability."
+    },
+    "/dashboard/offers": {
+      "title": "Offers & Opportunities",
+      "description": "Save useful resources, cohort conversations, and opportunities from the Godswill portfolio."
+    },
+    "/dashboard/resources": {
+      "title": "My Resources",
+      "description": "Explore and save digital products and practical resources for your next project."
+    },
+    "/dashboard/settings": {
+      "title": "Dashboard Settings",
+      "description": "Personalize your dashboard and manage the information saved on this device."
+    },
+    "/dashboard/activity": {
+      "title": "My Activity",
+      "description": "Your recent activity across the Godswill platform."
+    },
+    "/dashboard/saved": {
+      "title": "Saved Items",
+      "description": "Find your saved projects, articles, and events."
+    },
+    "/dashboard/enquiries": {
+      "title": "My Enquiries",
+      "description": "Review and reuse the enquiry briefs you have prepared."
+    },
+    "/dashboard/schedule": {
+      "title": "My Schedule",
+      "description": "Manage your appointments and view available times."
     }
   }
 }

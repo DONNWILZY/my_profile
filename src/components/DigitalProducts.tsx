@@ -1,6 +1,7 @@
 import {Link, useLocation, useParams, useSearchParams} from 'react-router-dom';
 import {brandAsset} from '../brand';
 import {digitalProducts, type DigitalProduct} from '../digitalProductsData';
+import {useDashboard} from '../dashboard/DashboardProvider';
 import './offerings.css';
 
 function ProductPreview({product}: {product: DigitalProduct}) {
@@ -82,11 +83,13 @@ export function DigitalProducts() {
 export function DigitalProductDetails() {
   const {slug} = useParams();
   const location = useLocation();
+  const {state, toggleProduct} = useDashboard();
   const product = digitalProducts.find(item => item.slug === slug);
 
   if (!product) return <div className="offering-page"><div className="offering-wrap offering-empty offering-missing"><p className="offering-eyebrow">Digital products</p><h1 className="offering-title">Product not found.</h1><p className="offering-lead">This product is not in the current collection. Explore the available platforms and resources.</p><Link className="btn-primary" to="/digital-products">Browse digital products</Link></div></div>;
 
   const relatedProducts = digitalProducts.filter(item => item.slug !== product.slug);
+  const saved = state.savedProductSlugs.includes(product.slug);
   const from = (location.state as {from?: unknown} | null)?.from;
   const back = typeof from === 'string' && (from === '/digital-products' || from.startsWith('/digital-products?')) ? from : '/digital-products';
 
@@ -102,6 +105,8 @@ export function DigitalProductDetails() {
             {product.website && <a href={product.website} target="_blank" rel="noopener noreferrer" className="btn-primary">Visit platform<span className="sr-only"> (opens in a new tab)</span></a>}
             {product.download && <a href={brandAsset(product.download)} download="digital-product-planning-worksheet.md" className="btn-primary">Download worksheet</a>}
             <Link className="btn-light" to={`/contact?topic=Digital%20products&item=${encodeURIComponent(product.title)}`}>Ask about this product</Link>
+            <button type="button" className="btn-light" aria-pressed={saved} onClick={() => toggleProduct(product.slug)}>{saved ? 'Saved to my resources' : 'Save to my resources'}</button>
+            {saved && <Link to="/dashboard/resources" className="offering-text-link">Open my resources</Link>}
           </div>
           {product.fileLabel && <p className="offering-file-label">{product.fileLabel}. No account required.</p>}
         </div>

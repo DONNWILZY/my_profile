@@ -29,6 +29,7 @@ export default defineConfig(({mode})=>{
    : `${base}${brand.assets.socialImage}`;
  return {
   base,
+  server: {proxy: {'/api/schedule': {target: 'http://127.0.0.1:8787', changeOrigin: false}}},
   plugins: [react(), {
     name: 'shared-brand',
     transformIndexHtml(html){

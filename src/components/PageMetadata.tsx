@@ -1,5 +1,5 @@
 import {caseStudyForPath} from '../projectCatalog';
-import {courseForPath} from '../courseCatalog';
+import {courses, courseForPath} from '../courseCatalog';
 import {digitalProductForPath} from '../digitalProductsData';
 import {useEffect} from 'react';
 import {useLocation} from 'react-router-dom';
@@ -11,8 +11,12 @@ export default function PageMetadata(){
   useEffect(()=>{
     const article = pathname.startsWith('/blog/') ? posts.find(post=>`/blog/${post.slug}` === pathname) : undefined;
     const project = caseStudyForPath(pathname);
+    const dashboardSlug = /^\/dashboard\/courses\/([^/]+)\/?$/.exec(pathname)?.[1];
+    const studyPlan = courses.find(course => course.slug === dashboardSlug);
     const offering = courseForPath(pathname) ?? digitalProductForPath(pathname);
-    const page = offering
+    const page = studyPlan
+      ? {title: `${studyPlan.title} - My Study Plan | ${brand.fullName}`, description: `Review the outline and keep personal notes for ${studyPlan.title}.`}
+      : offering
       ? {title: `${offering.title} | ${brand.fullName}`, description: offering.summary}
       : project
       ? {title: `${project.title} | ${brand.fullName}`, description: project.summary}

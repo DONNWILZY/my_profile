@@ -9,6 +9,6 @@ export function brandAsset(path: string){
 
 export function pageMetadata(pathname: string){
   const pages: Record<string, {title: string; description: string}> = brand.pages;
-  const page = pages[pathname] ?? {title: 'Page not found', description: brand.description};
+  const page = pages[pathname.replace(/\/+$/, '') || '/'] ?? {title: 'Page not found', description: brand.description};
   return {...page, title: `${page.title} | ${brand.fullName}`};
 }

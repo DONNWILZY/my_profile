@@ -7,7 +7,7 @@ import './navigation.css';
 
 const groups = [
   {label:'Services', links:[['/engineering','Software engineering'],['/marketing','Digital marketing'],['/speaking','Speaking & workshops'],['/courses','Courses'],['/digital-products','Digital products']]},
-  {label:'Insights', links:[['/blog','Blog'],['/events','Events'],['/community','Community']]},
+  {label:'Insights', links:[['/blog','Blog'],['/events','Events'],['/community','Community'],['/dashboard','My dashboard']]},
 ];
 
 export default function Header({inverse=false}: {inverse?: boolean}){
